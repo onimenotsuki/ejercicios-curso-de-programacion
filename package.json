@@ -1,0 +1,28 @@
+{
+  "name": "curso-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onimenotsuki/ejercicios-curso-de-programacion.git"
+  },
+  "author": "Edgar Talledos <onimenotsuki@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onimenotsuki/ejercicios-curso-de-programacion/issues"
+  },
+  "homepage": "https://github.com/onimenotsuki/ejercicios-curso-de-programacion#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "git-cz": "^4.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
