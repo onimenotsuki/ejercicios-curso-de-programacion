@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['airbnb-base/legacy', 'prettier'],
-  plugins: ['prettier'],
+  extends: ['airbnb-base/legacy', 'prettier', 'plugin:jest/recommended'],
+  plugins: ['prettier', 'jest'],
   parser: '@babel/eslint-parser',
   rules: {
     // Añadidas reglas para prettier
@@ -15,5 +15,6 @@ module.exports = {
   },
   env: {
     node: true,
+    'jest/globals': true,
   },
 };
