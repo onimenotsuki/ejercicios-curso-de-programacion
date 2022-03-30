@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/onimenotsuki/ejercicios-curso-de-programacion.git"
   },
+  "engines": {
+    "node": "16.4.2"
+  },
   "author": "Edgar Talledos <onimenotsuki@gmail.com>",
   "license": "ISC",
   "bugs": {
